@@ -1,0 +1,164 @@
+@-webkit-keyframes spin{
+
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+@keyframes spin{
+
+100%{
+    transform: rotate(360deg);
+}
+}
+
+
+html {
+    background-color: #ba2d23
+}
+
+body { 
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header {
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+
+
+}
+
+ul{
+    padding-left: 0%;
+}
+
+li{
+    list-style: none;
+}
+
+.intro, li{
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+.writing{
+    line-height: 1.5;
+}
+
+.invite,
+.greeting{
+    font-weight: normal;
+    text-align: left;
+
+}
+
+
+
+.site-nav{
+    text-align:center;
+}
+
+.site-nav  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+.site-nav  li {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    font-size: larger;
+
+}
+.site-nav  a {
+    display: block;
+    text-decoration: none;
+    padding: 3px;
+
+}
+
+.site-nav a:hover{
+    color: #ba2d23
+    ;
+}
+
+.fix {
+    clear: both;
+}
+
+header p {
+    text-align: center;
+    margin: 0;
+}
+
+.greeting{
+    text-align: left;
+    width: 50%;
+    padding-top: 10px;
+
+}
+
+
+.fav-lists{
+    background-color: 4e4c4c65;
+    background-image:linear-gradient(to left, #4b4949a2, rgba(58, 56, 56, 0.103));
+    border-radius: 10px;
+    text-align: center;
+    width:40%;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 1.7;
+    float: right;
+    display: inline;
+
+}
+
+.pic-one {
+    width: 325px;
+    padding-top: 10px;
+    border-radius: 50%;
+
+
+}
+
+.pic-two{
+    float: right;
+    display: inline;
+    width: 38%;
+    border-radius: 30px;
+
+}
+
+.tips{
+    width: 60%;
+}
+
+.bone img{
+    -webkit-animation: spin 4s infinite  ease-in-out;
+	animation: spin 4s infinite  ease-in-out;
+    width: 100px;
+    margin-left: 46%;
+
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 80%;
+ }
+

@@ -1,0 +1,216 @@
+@-webkit-keyframes fadeBounce {
+	
+	0% {
+		opacity: 0;
+		transform: translateY(-200%);
+	}
+	
+	40% {
+		transform: translateY(0);
+	}
+	
+	55% {
+		transform: translateY(-6px);
+	}
+	
+	70% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+	85% {
+		transform: translateY(-3px);
+	}
+		
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+}
+
+@keyframes fadeBounce {
+	
+	0% {
+		opacity: 0;
+		transform: translateY(-200%);
+	}
+	
+	40% {
+		transform: translateY(0);
+	}
+	
+	55% {
+		transform: translateY(-6px);
+	}
+	
+	70% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+	85% {
+		transform: translateY(-3px);
+	}
+		
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+}
+
+@-webkit-keyframes spin{
+
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+@keyframes spin{
+
+100%{
+    transform: rotate(360deg);
+}
+}
+
+
+html {
+    background-color: #ba2d23
+}
+
+body { 
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header {
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+
+
+}
+
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+.site-nav{
+    text-align:center;
+}
+
+.site-nav  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+.site-nav  li {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    font-size: larger;
+
+}
+.site-nav  a {
+    display: block;
+    text-decoration: none;
+    padding: 3px;
+
+}
+
+.site-nav a:hover{
+    color: #ba2d23
+    ;
+}
+
+.fix {
+    clear: both;
+}
+
+header p {
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    margin: 0%;
+
+}
+
+h3{
+    opacity: 0%;
+    -webkit-animation: fadeBounce 1s forwards;
+    animation: fadeBounce 1s forwards;
+    background-color: #ba2d23;
+    text-align: center;
+    text-shadow:1px 1px 1px black ;
+    color: white;
+    padding: 5px;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    width: 80px;
+    box-shadow: inset 10px 5px 5px #971b12;
+
+}
+
+.still h3{
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+}
+
+.shake h3{
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.come h3{
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}
+
+.down h3{
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+p{
+    margin-top: 0px;
+}
+
+.row-1, .row-2{
+    display: flex;
+    margin-left: 15%;
+}
+.c-1, .c-2, .c-3,
+.c-4{
+    flex: 1;
+}
+
+
+.bone img{
+    -webkit-animation: spin 4s infinite  ease-in-out;
+	animation: spin 4s infinite  ease-in-out;
+    width: 100px;
+    margin-left: 46%;
+    margin-top: 20px;
+
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 80%;
+ }
